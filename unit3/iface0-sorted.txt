@@ -1,0 +1,20 @@
+
+
+
+
+
+
+	address 30.109.19.160/16
+	address 93.46.203.182/14
+	hwaddress 58:E2:95:83:1D:EB
+	hwaddress 81:40:36:AB:7F:F4
+	hwaddress DD:1C:C0:01:AA:E5
+iface ftdi1 inet static
+iface jam0 inet static
+iface jam2 inet dhcp inherits ruins0
+iface moths1 inet static
+iface moths2 inet static
+iface ruins0 inet static
+	mtu 1022
+	mtu 1678
+	mtu 3232
