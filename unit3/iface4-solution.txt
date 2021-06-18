@@ -1,0 +1,15 @@
+iface moths0 inet static
+	mtu 500
+	hwaddress 86:BC:E2:21:EA:79
+
+iface moths1 inet static
+	mtu 2516
+	hwaddress 06:D4:65:CC:C0:9F
+
+iface ftdi0 inet static inherits moths1
+	address 20.122.47.69/20
+
+iface ftdi1 inet dhcp
+
+iface eth2 inet dhcp
+

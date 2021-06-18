@@ -1,0 +1,20 @@
+iface moths0 inet static
+	mtu 1216
+	hwaddress 63:E2:D9:CA:44:31
+
+iface wealth1 inet static
+	mtu 3205
+	hwaddress B4:CA:C4:D6:80:92
+
+iface castle2 inet static
+	mtu 8119
+	hwaddress 6F:1A:83:C9:3C:14
+
+iface ftdi0 inet dhcp inherits castle2
+
+iface jam1 inet static
+	address 10.124.186.91/11
+
+iface wlan2 inet static
+	address 63.254.48.109/1
+
