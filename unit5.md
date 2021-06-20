@@ -19,3 +19,33 @@ sudo ip addr add 10.1.1.1/24 dev enp0s8
 sudo ip link set dev enp0s8 up
 sudo ip addr add 10.1.1.1/24 dev enp0s8
 ```
+
+**Pinging** is now possible between the two machnies, provided that both interfaces and address are set up properly.
+
+```bash
+Using ping 10.1.1.1 and ping 10.1.1.2 commands should now work for both machines. **Note** ping 10.1.1.2 is used for Machine 1 and 10.1.1.1 is used for Machine 2.
+```
+
+##Firewall Setup 
+Now that both machines can communicate, we can build a basic Firewall Setup using iptables.
+
+Firstly, we install the iptables using `sudo apt install iptables` (If you have version Ubuntu 18.04, it is already built into the system).
+
+Once completed, we will now drop all traffic from both machines in both directions.
+
+```bash
+# Machine 1 and 2
+sudo iptables--policy INPUT DROP
+sudo iptables--policy OUTPUT DROP
+sudo iptables--policy FORWARD DROP
+```
+The command below to boh machines will allow for it to open connections to others machines on the network and have them talk back.
+```bash
+# Both machines
+sudo iptables -A OUTPUT -p tcp -m state --state NEW,ESTABLISHED -j ACCEPT
+sudo iptables -A INPUT -p tcp -m state --state ESTABLISHED -j ACCEPT
+```
+Since neither machine is accepting connections, adding the rule bellow to machine 2 will allow a new SSH connection.# Machine 2
+```bash
+sudo iptables -I INPUT 1 -p tcp --dport 22 -m state --state NEW -j ACCEPT
+```
