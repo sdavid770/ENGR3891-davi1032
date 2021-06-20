@@ -1,3 +1,4 @@
+
 dn: dc=nodomain
 objectClass: top
 objectClass: dcObject
@@ -47,7 +48,7 @@ objectClass: organizationalUnit
 
 dn: ou=Interior decoration,ou=Sub-divisions,dc=Trans-Urannic Investments,dc=nodomain
 ou: Interior decoration
-objectClass: 
+objectClass: organizationalUnit
 
 dn: ou=Truth,dc=Conglomerated Imports,dc=nodomain
 ou: Truth
@@ -57,7 +58,7 @@ dn: ou=Rhetorical devices,ou=Truth,dc=Conglomerated Imports,dc=nodomain
 ou: Rhetorical devices
 objectClass: organizationalUnit
 
-dn: ou=Diabolical schemes,ou=Rhetorical devices,dc=Conglomerated Imports,dc=nodomain
+dn: ou=Diabolical schemes,ou=Rhetorical devices,ou=Truth,dc=Conglomerated Imports,dc=nodomain
 ou: Diabolical schemes
 objectClass: organizationalUnit
 
@@ -81,7 +82,7 @@ dn: ou=Human resources,ou=Research,dc=Jurassic Supplies,dc=nodomain
 ou: Human resources
 objectClass: organizationalUnit
 
-dn: ou=Excessive hierarchy,ou=Human resources,dc=Jurassic Supplies,dc=nodomain
+dn: ou=Excessive hierarchy,ou=Human resources,ou=Research,dc=Jurassic Supplies,dc=nodomain
 ou: Excessive hierarchy
 objectClass: organizationalUnit
 
@@ -97,10 +98,10 @@ dn: ou=Misappropriation,ou=Embezzelment,dc=Lanthanide Resources,dc=nodomain
 ou: Misappropriation
 objectClass: organizationalUnit
 
-dn: cn=Micah Clarke,ou=Interior decoration,ou=Truth,dc=Trans-Urannic Investments,dc=nodomain
+dn: cn=Micah Clarke,ou=Interior decoration,ou=Sub-divisions,dc=Trans-Urannic Investments,dc=nodomain
 cn: Micah Clarke
 sn: Clarke
-mail: mclarke@transurannicin-vestments.com.au
+mail: mclarke@transurannicinvestments.com.au
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 
@@ -113,19 +114,19 @@ objectClass: inetOrgPerson
 telephoneNumber: +61385265680
 telephoneNumber: +61385265852
 
-dn: dc=Flora Evans,ou=Sub-divisions,dc=Trans-Urannic Investments,dc=nodomain
+dn: cn=Flora Evans,ou=Sub-divisions,dc=Trans-Urannic Investments,dc=nodomain
 cn: Flora Evans
 sn: Evans
-mail:fevans@jurassicsupplies.com.nz
+mail: fevans@jurassicsupplies.com.nz
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +6545553291
 telephoneNumber: +6545553115
 telephoneNumber: +6545553376
 telephoneNumber: +6545553623
-manager: cn=Micah Clarke,ou=Interior decoration,ou=Truth
+manager: cn=Micah Clarke,ou=Interior decoration,ou=Sub-divisions
 
-dn: dc=Fay James,ou=Sub-divisions,dc=Trans-Urannic Investments,dc=nodomain
+dn: cn=Fay James,ou=Sub-divisions,dc=Trans-Urannic Investments,dc=nodomain
 cn: Fay James
 sn: James
 mail: fay.james@lanthanideresources.com.ki
@@ -133,7 +134,7 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 manager: cn=Flora Evans,ou=Sub-divisions
 
-dn: dc=Fran Jones,ou=Embezzelment,dc=Lanthanide Resources,dc=nodomain
+dn: cn=Fran Jones,ou=Embezzelment,dc=Lanthanide Resources,dc=nodomain
 cn: Fran Jones
 sn: Jones
 mail: fj4@jurassicsupplies.com.nz
@@ -141,7 +142,7 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +6545553768
 
-dn: cn=Fran Wilson,ou=Excessive hierarchy,ou=Human Resources,ou=Research,dc=Jurassic Supplies,dc=nodomain
+dn: cn=Fran Wilson,ou=Excessive hierarchy,ou=Human resources,ou=Research,dc=Jurassic Supplies,dc=nodomain
 cn: Fran Wilson
 sn: Wilson
 mail: fran.wilson@jurassicsupplies.com.nz
@@ -200,7 +201,7 @@ telephoneNumber: +672209416
 telephoneNumber: +672209644
 telephoneNumber: +672209783
 telephoneNumber: +672209597
-manager: cn= Murphey Robinson,ou=Truth
+manager: cn=Murphey Robinson,ou=Truth
 
 dn: cn=Matthew Smith,ou=Truth,dc=Conglomerated Imports,dc=nodomain
 cn: Matthew Smith
@@ -218,7 +219,7 @@ dn: cn=Flora Jones,ou=Truth,dc=Conglomerated Imports,dc=nodomain
 cn: Flora Jones
 sn: Jones
 mail: fjones@transurannicinvestments.com.au
-objectClass: organizationalPerson 
+objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +61308536443
 telephoneNumber: +61308536251
@@ -246,16 +247,16 @@ telephoneNumber: +61385265743
 telephoneNumber: +61385265693
 manager: cn=Fran Jones,ou=Embezzelment
 
-dn: cn=Fleur Taylor,ou=Excessive hierarchy,ou=Human Resources,ou=Research,dc=Jurassic Supplies,dc=nodomain
+dn: cn=Fleur Taylor,ou=Excessive hierarchy,ou=Human resources,ou=Research,dc=Jurassic Supplies,dc=nodomain
 cn: Fleur Taylor
 sn: Taylor
 mail: ftaylor@lanthanideresources.com.ki
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
-telephonenumber: +68634219857
+telephoneNumber: +68634219857
 telephoneNumber: +68634219092
 telephoneNumber: +68634219582
-manager: cn= Fran Harris,ou=Human resources,ou=Research
+manager: cn=Fran Harris,ou=Human resources,ou=Research
 
 dn: cn=Fiona Green,ou=Interior decoration,ou=Truth,dc=Conglomerated Imports,dc=nodomain
 cn: Fiona Green
@@ -273,9 +274,9 @@ sn: Smith
 mail: fs17@lanthanideresources.com.ki
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
-manager: cn=Micah Clarke,ou=Interior decoration,ou=Truth
+manager: cn=Micah Clarke,ou=Interior decoration,ou=Sub-divisions
 
-dn: cn=Micah Thompson,ou=Diabolical schemes,ou=Rhetorical schemes,ou=Truth,dc=Conglomerated Imports,dc=nodomain
+dn: cn=Micah Thompson,ou=Diabolical schemes,ou=Rhetorical devices,ou=Truth,dc=Conglomerated Imports,dc=nodomain
 cn: Micah Thompson
 sn: Thompson
 mail: micah5t8@transurannicinvestments.com.au
@@ -313,9 +314,9 @@ mail: fevans@lanthanideresources.com.ki
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +68634219933
-manager: cn=Micah Clarke,ou=Interior decoration,ou=Truth
+manager: cn=Micah Clarke,ou=Interior decoration,ou=Sub-divisions
 
-dn: cn=Fleur Lee,ou=Diabolical schemes,ou=Rheotorical devices,ou=Truth,dc=Conglomerated Imports,dc=nodomain
+dn: cn=Fleur Lee,ou=Diabolical schemes,ou=Rhetorical devices,ou=Truth,dc=Conglomerated Imports,dc=nodomain
 cn: Fleur Lee
 sn: Lee
 mail: fleur5l3@conglomeratedimports.com.nf
@@ -341,7 +342,7 @@ sn: Green
 mail: morgan6g5@transurannicinvestments.com.au
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
-manager: cn= Mitchell Davies,ou=Environmental protection
+manager: cn=Mitchell Davies,ou=Environmental protection
 
 dn: cn=Micah Jones,ou=Misappropriation,ou=Embezzelment,dc=Lanthanide Resources,dc=nodomain
 cn: Micah Jones
@@ -363,7 +364,7 @@ telephoneNumber: +61308536805
 telephoneNumber: +61308536609
 telephoneNumber: +61308536069
 telephoneNumber: +61308536436
-manager: cn=Micah Thompson,ou=Diabolical schemes,ou=Rhetorical
+manager: cn=Micah Thompson,ou=Diabolical schemes,ou=Rhetorical devices,ou=Truth
 
 dn: cn=Morgan Brown,ou=Research,dc=Jurassic Supplies,dc=nodomain
 cn: Morgan Brown
@@ -373,9 +374,9 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +61308536076
 telephoneNumber: +61308536567
-manager: cn=Fleur Taylor,ou=Excessive hierarchy,ou=Human Resources,ou=Research
+manager: cn=Fleur Taylor,ou=Excessive hierarchy,ou=Human resources,ou=Research
 
-dn: cn=Mitchell Thompson,ou=Manufacture,dc=Sidereal Fish Tanks,dc=nodomain
+dn: cn=Mitchell Thompson,ou=Manufacture,ou=Environmental protection,dc=Sidereal Fish Tanks,dc=nodomain
 cn: Mitchell Thompson
 sn: Thompson
 mail: mt28@conglomeratedimports.com.nf
@@ -383,7 +384,7 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +672209262
 telephoneNumber: +672209682
-manager: cn= Morgan Green,ou=Manufacture,ou=Environmental protection
+manager: cn=Morgan Green,ou=Manufacture,ou=Environmental protection
 
 dn: cn=Flora Smith,ou=Misappropriation,ou=Embezzelment,dc=Lanthanide Resources,dc=nodomain
 cn: Flora Smith
@@ -394,7 +395,7 @@ objectClass: inetOrgPerson
 telephoneNumber: +68634219545
 telephoneNumber: +68634219005
 telephoneNumber: +68634219089
-manager: cn= Micah Jones,ou=Misappropriation,ou=Embezzelment
+manager: cn=Micah Jones,ou=Misappropriation,ou=Embezzelment
 
 dn: cn=Fay Thompson,ou=Interior decoration,ou=Sub-divisions,dc=Trans-Urannic Investments,dc=nodomain
 cn: Fay Thompson
@@ -417,7 +418,7 @@ telephoneNumber: +6545553741
 telephoneNumber: +6545553744
 telephoneNumber: +6545553996
 telephoneNumber: +6545553879
-manager: cn=Fleur Lee,ou=Diabolical schemes,ou=Rheotorical devices,ou=Truth
+manager: cn=Fleur Lee,ou=Diabolical schemes,ou=Rhetorical devices,ou=Truth
 
 dn: cn=Frances Green,ou=Misappropriation,ou=Embezzelment,dc=Lanthanide Resources,dc=nodomain
 cn: Frances Green
@@ -431,8 +432,8 @@ telephoneNumber: +672209927
 telephoneNumber: +672209224
 manager: cn=Micah Jones,ou=Misappropriation,ou=Embezzelment
 
-dn: cn=Murphe Clarke,ou=Human resources,ou=Research,dc=Jurassic Supplies,dc=nodomain
-cn: Murphe Clarke
+dn: cn=Murphey Clarke,ou=Human resources,ou=Research,dc=Jurassic Supplies,dc=nodomain
+cn: Murphey Clarke
 sn: Clarke
 mail: mc33@siderealfishtanks.com.au
 objectClass: organizationalPerson
@@ -458,7 +459,7 @@ telephoneNumber: +61308536823
 telephoneNumber: +61308536344
 telephoneNumber: +61308536533
 telephoneNumber: +61308536082
-manager: cn=Fran Jones,ou=Embezzelment,dc=Lanthanide Resources
+manager: cn=Fran Jones,ou=Embezzelment
 
 dn: cn=Mark Robinson,ou=Misappropriation,ou=Embezzelment,dc=Lanthanide Resources,dc=nodomain
 cn: Mark Robinson
@@ -480,14 +481,14 @@ manager: cn=Magnus Lee,ou=Truth
 dn: cn=Mario Watson,ou=Environmental protection,dc=Sidereal Fish Tanks,dc=nodomain
 cn: Mario Watson
 sn: Watson
-mail: mwatson@lan-thanideresources.com.ki
+mail: mwatson@lanthanideresources.com.ki
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +68634219549
 telephoneNumber: +68634219994
 telephoneNumber: +68634219189
 telephoneNumber: +68634219273
-manager: cn= Mitchell Thompson,ou=Manufacture
+manager: cn=Mitchell Thompson,ou=Manufacture,ou=Environmental protection
 
 dn: cn=Freya Wood,ou=Human resources,ou=Research,dc=Jurassic Supplies,dc=nodomain
 cn: Freya Wood
@@ -497,7 +498,7 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +68634219274
 telephoneNumber: +68634219272
-manager: cn= Morgan Brown,ou=Research
+manager: cn=Morgan Brown,ou=Research
 
 dn: cn=Francesca White,ou=Environmental protection,dc=Sidereal Fish Tanks,dc=nodomain
 cn: Francesca White
@@ -507,7 +508,7 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +68634219153
 telephoneNumber: +68634219901
-manager: cn= Matthew James,ou=Environmental protection,
+manager: cn=Matthew James,ou=Environmental protection
 
 dn: cn=Fran Cooper,ou=Embezzelment,dc=Lanthanide Resources,dc=nodomain
 cn: Fran Cooper
@@ -517,6 +518,7 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +61385265426
 telephoneNumber: +61385265957
+telephoneNumber: +61385265206
 manager: cn=Flora Smith,ou=Misappropriation,ou=Embezzelment
 
 dn: cn=Matthew Wood,ou=Research,dc=Jurassic Supplies,dc=nodomain
@@ -526,9 +528,9 @@ mail: matthew7w4@conglomeratedimports.com.nf
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +672209900
-manager: cn=Fleur Taylor,ou=Excessive hierarchy,ou=Human Resources,ou=Research
+manager: cn=Fleur Taylor,ou=Excessive hierarchy,ou=Human resources,ou=Research
 
-dn: cn=Frances Lewis,ou=Excessive hierarchy,ou=Human Resources,ou=Research,dc=Jurassic Supplies,dc=nodomain
+dn: cn=Frances Lewis,ou=Excessive hierarchy,ou=Human resources,ou=Research,dc=Jurassic Supplies,dc=nodomain
 cn: Frances Lewis
 sn: Lewis
 mail: flewis@siderealfishtanks.com.au
@@ -553,20 +555,20 @@ sn: Watson
 mail: fleur.watson@transurannicinvestments.com.au
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
-telephoneNumber: +61308536662 
-manager: cn=Fran Wilson,ou=Excessive hierarchy,ou=Human Resources,ou=Research
+telephoneNumber: +61308536662
+manager: cn=Fran Wilson,ou=Excessive hierarchy,ou=Human resources,ou=Research
 
 dn: cn=Francesca Taylor,ou=Misappropriation,ou=Embezzelment,dc=Lanthanide Resources,dc=nodomain
 cn: Francesca Taylor
 sn: Taylor
-mail: francesca.taylor@siderealfishtanks.com.au 
+mail: francesca.taylor@siderealfishtanks.com.au
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 telephoneNumber: +61385265685
 telephoneNumber: +61385265142
 telephoneNumber: +61385265080
 manager: cn=Fran Cooper,ou=Embezzelment
- 
+
 dn: cn=Magnus Lewis,ou=Truth,dc=Conglomerated Imports,dc=nodomain
 cn: Magnus Lewis
 sn: Lewis
@@ -574,6 +576,3 @@ mail: mlewis@siderealfishtanks.com.au
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 manager: cn=Fleur Wilson,ou=Truth
-
-
-
