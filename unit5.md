@@ -8,6 +8,14 @@ To get the two machines communicatiing with each other, both of them need to be 
 
 If the Network is based on Static Ip allocation, the commands below will assign the correct ipaddress to each VM.
 
-'''
+```bash
+# Machine 1
+sudo ip link set dev enp0s8 up
+sudo ip addr add 10.1.1.1/24 dev enp0s8
+```
 
-'''
+```bash
+# Machine 2
+sudo ip link set dev enp0s8 up
+sudo ip addr add 10.1.1.1/24 dev enp0s8
+```
