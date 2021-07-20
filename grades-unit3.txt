@@ -1,1 +1,63 @@
+Incorrect answer for question 40 in 'unit3/answers.txt'
+Incorrect answer for question 41 in 'unit3/answers.txt'
+Incorrect answer for question 42 in 'unit3/answers.txt'
+Incorrect answer for question 43 in 'unit3/answers.txt'
+Incorrect answer for question 44 in 'unit3/answers.txt'
+Incorrect answer for question 45 in 'unit3/answers.txt'
+Incorrect answer for question 46 in 'unit3/answers.txt'
+Incorrect answer for question 47 in 'unit3/answers.txt'
+Incorrect answer for question 48 in 'unit3/answers.txt'
+Incorrect answer for question 49 in 'unit3/answers.txt'
+Incorrect answer for question 50 in 'unit3/answers.txt'
+Incorrect answer for question 51 in 'unit3/answers.txt'
+Incorrect answer for question 52 in 'unit3/answers.txt'
+Incorrect answer for question 53 in 'unit3/answers.txt'
+Incorrect answer for question 54 in 'unit3/answers.txt'
+Incorrect answer for question 55 in 'unit3/answers.txt'
+Incorrect answer for question 57 in 'unit3/answers.txt'
+Incorrect answer for question 58 in 'unit3/answers.txt'
+Incorrect answer for question 59 in 'unit3/answers.txt'
+Incorrect answer for question 60 in 'unit3/answers.txt'
+Incorrect answer for question 61 in 'unit3/answers.txt'
+Incorrect answer for question 62 in 'unit3/answers.txt'
+Incorrect answer for question 63 in 'unit3/answers.txt'
+Incorrect answer for question 64 in 'unit3/answers.txt'
+Incorrect answer for question 65 in 'unit3/answers.txt'
+Incorrect answer for question 66 in 'unit3/answers.txt'
+Incorrect answer for question 67 in 'unit3/answers.txt'
+Incorrect answer for question 68 in 'unit3/answers.txt'
+Incorrect answer for question 69 in 'unit3/answers.txt'
+Incorrect answer for question 70 in 'unit3/answers.txt'
+Incorrect answer for question 71 in 'unit3/answers.txt'
+Incorrect answer for question 72 in 'unit3/answers.txt'
+Incorrect answer for question 73 in 'unit3/answers.txt'
+Incorrect answer for question 74 in 'unit3/answers.txt'
+Incorrect answer for question 75 in 'unit3/answers.txt'
+Incorrect answer for question 76 in 'unit3/answers.txt'
+Incorrect answer for question 77 in 'unit3/answers.txt'
+Incorrect answer for question 78 in 'unit3/answers.txt'
+Incorrect answer for question 79 in 'unit3/answers.txt'
+205/400 after HASH:unit3/answers.txt:unit3/check.txt
+diff unit3/iface0-solution.txt.sorted unit3/iface0-sorted.txt | wc -l > wc.log
+305/500 after SORT:unit3/iface0-solution.txt:unit3/iface0-sorted.txt:unit3/iface0-hash.txt
+diff unit3/iface1-solution.txt.sorted unit3/iface1-sorted.txt | wc -l > wc.log
+405/600 after SORT:unit3/iface1-solution.txt:unit3/iface1-sorted.txt:unit3/iface1-hash.txt
+diff unit3/iface2-solution.txt.sorted unit3/iface2-sorted.txt | wc -l > wc.log
+505/700 after SORT:unit3/iface2-solution.txt:unit3/iface2-sorted.txt:unit3/iface2-hash.txt
+diff unit3/iface3-solution.txt.sorted unit3/iface3-sorted.txt | wc -l > wc.log
+605/800 after SORT:unit3/iface3-solution.txt:unit3/iface3-sorted.txt:unit3/iface3-hash.txt
+diff unit3/iface4-solution.txt.sorted unit3/iface4-sorted.txt | wc -l > wc.log
+705/900 after SORT:unit3/iface4-solution.txt:unit3/iface4-sorted.txt:unit3/iface4-hash.txt
+730/925 after MATCH:+unit3/routes0.txt:unit3/routetable0add.log
+755/950 after MATCH:-unit3/routes0.txt:unit3/routetable0del.log
+780/975 after MATCH:+unit3/routes1.txt:unit3/routetable1add.log
+805/1000 after MATCH:-unit3/routes1.txt:unit3/routetable1del.log
+830/1025 after MATCH:+unit3/routes2.txt:unit3/routetable2add.log
+855/1050 after MATCH:-unit3/routes2.txt:unit3/routetable2del.log
+880/1075 after MATCH:+unit3/routes3.txt:unit3/routetable3add.log
+905/1100 after MATCH:-unit3/routes3.txt:unit3/routetable3del.log
+930/1125 after MATCH:+unit3/routes4.txt:unit3/routetable4add.log
+955/1150 after MATCH:-unit3/routes4.txt:unit3/routetable4del.log
+SUMMARY:955/1150
+TOTAL:83
 NOTE: The figures above are based on the work submitted at this point in time.  It does not take into account any late penalties. Nor does is stop you from submitting an updated version. It is simply an automatically generated summary of the raw score that your current work has obtained.
